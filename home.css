@@ -1,0 +1,47 @@
+
+a{
+    text-decoration: none;
+    color:black;
+}
+a:visited{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color:rgb(24, 112, 58);
+}
+a:active {
+    text-decoration: none;
+}
+.Elements{
+    width: 70%;
+    
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.Centered{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.Element{
+    font-size: 30px;
+    padding: 1rem 2rem;
+    background-color: green;
+    border: 1px solid black;
+    color: white;
+    transition: 1s;
+}
+.Invisible{
+    display:none;
+    transition: 1s;
+}
+.Button{
+    padding: 0.5rem 1rem;
+    display: none;
+    transition: 1s;
+}
